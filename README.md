@@ -154,9 +154,9 @@ Because `preview()` returns a Plotly `Figure`, all Plotly features remain availa
 ## Screening Many Files (Notebook Browser)
 
 ```
-notebooks/02_browse_files.ipynb
+notebooks/02_screening_browser.ipynb
 ```
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JKL453/photon-tools/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fnotebooks%2F02_browse_files.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JKL453/photon-tools/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fnotebooks%2F02_screening_browser.ipynb)
 
 The browser allows you to:
 - step through many measurement files
@@ -172,9 +172,9 @@ This workflow is intended for **expert-driven screening**, where visual judgment
 ## Custom Loaders
 
 ```
-notebooks/01_quickstart.ipynb
+notebooks/03_custom_loaders.ipynb
 ```
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JKL453/photon-tools/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fnotebooks%2F03_custom_loaders.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JKL453/photon-tools/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fnotebooks%2F03_custom_loader.ipynb)
 
 Custom file formats can be supported without modifying or forking the package.
 
