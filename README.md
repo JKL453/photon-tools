@@ -84,9 +84,12 @@ pip install ipywidgets pandas
 
 ## Basic Usage
 
+```
+notebooks/01_quickstart.ipynb
+```
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JKL453/photon-tools/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fnotebooks%2F01_quickstart.ipynb)
+
 ### Load a Photon-HDF5 file
-
-
 
 ```python
 import photon_tools as pt
@@ -150,12 +153,10 @@ Because `preview()` returns a Plotly `Figure`, all Plotly features remain availa
 
 ## Screening Many Files (Notebook Browser)
 
-A ready-to-use **Jupyter notebook example** for interactive file screening is provided in:
-
 ```
 notebooks/02_browse_files.ipynb
 ```
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<USER>/<REPO>/main?labpath=notebooks%2F02_screening_browser.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JKL453/photon-tools/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fnotebooks%2F02_browse_files.ipynb)
 
 The browser allows you to:
 - step through many measurement files
@@ -169,6 +170,11 @@ This workflow is intended for **expert-driven screening**, where visual judgment
 ---
 
 ## Custom Loaders
+
+```
+notebooks/01_quickstart.ipynb
+```
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JKL453/photon-tools/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fnotebooks%2F03_custom_loaders.ipynb)
 
 Custom file formats can be supported without modifying or forking the package.
 
