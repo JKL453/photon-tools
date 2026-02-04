@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "photon-tools"
+version = "0.1.0"
+description = "Lightweight tools for loading and handling photon counting data"
+authors = [{name = "Janosch Kappel"}]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "h5py",
+    "plotly",
+    "nbformat",
+    "pandas",
+    "ipywidgets",
+    "phconvert",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

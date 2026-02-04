@@ -1,0 +1,7 @@
+numpy
+h5py
+plotly
+nbformat
+pandas
+ipywidgets
+phconvert
