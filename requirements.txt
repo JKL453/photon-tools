@@ -1,3 +1,4 @@
+# install the package itself from the repo (done in postBuild)
 numpy
 h5py
 plotly

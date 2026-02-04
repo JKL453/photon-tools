@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "photon-tools"
 version = "0.1.0"
+license = { text = "MIT" }
 description = "Lightweight tools for loading and handling photon counting data"
 authors = [{name = "Janosch Kappel"}]
 requires-python = ">=3.10"
@@ -20,3 +21,6 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools]
+license-files = ["LICENSE.md"]

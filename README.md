@@ -86,6 +86,8 @@ pip install ipywidgets pandas
 
 ### Load a Photon-HDF5 file
 
+
+
 ```python
 import photon_tools as pt
 
@@ -153,6 +155,7 @@ A ready-to-use **Jupyter notebook example** for interactive file screening is pr
 ```
 notebooks/02_browse_files.ipynb
 ```
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<USER>/<REPO>/main?labpath=notebooks%2F02_screening_browser.ipynb)
 
 The browser allows you to:
 - step through many measurement files
