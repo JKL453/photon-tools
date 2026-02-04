@@ -5,7 +5,6 @@ Lightweight Python tools for loading, inspecting, and screening single-molecule 
 `photon-tools` is designed for **interactive, notebook-based workflows** commonly used in single-molecule fluorescence experiments.  
 The focus is on **data loading, standardization, and visual inspection**, not on enforcing a specific analysis pipeline.
 
----
 
 ## Motivation
 
@@ -21,7 +20,7 @@ In single-molecule experiments, especially with photon-counting data:
 - fast, interactive **Plotly-based previews**
 - a **Jupyter-based browser** for screening and annotating many files
 
----
+
 
 ## Features
 
@@ -52,7 +51,7 @@ In single-molecule experiments, especially with photon-counting data:
 - Mark files as *keep / reject*
 - Store annotations and notes in a CSV file
 
----
+
 
 ## Installation
 
@@ -66,7 +65,7 @@ source .venv/bin/activate
 Install in editable (development) mode:
 
 ```bash
-pip install -e .
+pip install photon-tools
 ```
 
 Required dependencies:
@@ -74,13 +73,9 @@ Required dependencies:
 - h5py
 - plotly
 - nbformat
+- ipywidgets
+- pandas
 
-For the notebook browser:
-```bash
-pip install ipywidgets pandas
-```
-
----
 
 ## Basic Usage
 
@@ -116,7 +111,7 @@ t_ch0 = by_ch[0]
 t_ch1 = by_ch[1]
 ```
 
----
+
 
 ## Interactive Preview
 
@@ -149,7 +144,7 @@ fig.show(config={"scrollZoom": True})
 
 Because `preview()` returns a Plotly `Figure`, all Plotly features remain available.
 
----
+
 
 ## Screening Many Files (Notebook Browser)
 
@@ -167,7 +162,7 @@ The browser allows you to:
 
 This workflow is intended for **expert-driven screening**, where visual judgment is essential and cannot be replaced by scalar metrics alone.
 
----
+
 
 ## Custom Loaders
 
@@ -193,7 +188,7 @@ ds = pt.load("custom_format.dat")
 
 This allows extending `photon-tools` in notebooks or scripts in a lightweight and flexible way.
 
----
+
 
 ## Files without extensions
 
@@ -208,7 +203,7 @@ ds = pt.load(
 )
 ```
 
----
+
 
 ## Design Philosophy
 
@@ -220,14 +215,14 @@ ds = pt.load(
 
 `photon-tools` is not an analysis framework — it is a **foundation** for interactive and exploratory workflows.
 
----
+
 
 ## Status
 
 This project is under active development and tailored to real experimental workflows.  
 APIs may evolve, but changes are made conservatively and with practical use cases in mind.
 
----
+
 
 ## License
 
