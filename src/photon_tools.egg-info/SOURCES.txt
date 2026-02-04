@@ -1,3 +1,5 @@
+LICENSE.md
+README.md
 pyproject.toml
 src/photon_tools/__init__.py
 src/photon_tools/model.py
@@ -7,3 +9,16 @@ src/photon_tools.egg-info/SOURCES.txt
 src/photon_tools.egg-info/dependency_links.txt
 src/photon_tools.egg-info/requires.txt
 src/photon_tools.egg-info/top_level.txt
+src/photon_tools/formats/__init__.py
+src/photon_tools/formats/ni_binary_s1.py
+src/photon_tools/formats/photon_hdf5.py
+src/photon_tools/formats/spc.py
+src/photon_tools/viz/__init__.py
+src/photon_tools/viz/browser.py
+src/photon_tools/viz/preview.py
+tests/test_loader_hdf5.py
+tests/test_loader_ni_binary.py
+tests/test_loader_spc.py
+tests/test_model.py
+tests/test_preview.py
+tests/test_registry.py

@@ -1,1 +1,12 @@
 numpy
+h5py
+plotly
+nbformat
+pandas
+ipywidgets
+phconvert
+
+[dev]
+pytest
+build
+twine
